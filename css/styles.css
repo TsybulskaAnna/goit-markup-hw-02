@@ -1,3 +1,133 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196f3;
+    --background-color: #FFFFFF;
+    --fon-section-1-color: #2F303A;
+    --fon-section-2-color: #E5E5E5;
+    --fon-section-3-color: #F5F4FA;
+    --logo-1-color: #2196F3;
+    --logo-2-color: #000000;
+}
+
 body {
-    background-color: aqua;
-} <link rel="stylesheet" href="./css/styles.css"/>
+    background-color: #FFFFFF;
+    color: var(--title-text-color);
+}
+
+.header-logo {
+    color: var(--logo-1-color);
+}
+
+.header-logo:hover,
+.header-logo:focus {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    color: var(--logo-1-color);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--accent-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* site-nav */
+
+.site-nav a {
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+
+/* contact-nav */
+
+.contact-nav a {
+    color: var(--title-text-color);
+}
+
+.contact-nav a:hover,
+.contact-nav a:focus {
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.hero {
+    background-color: var(--fon-section-1-color);
+}
+
+.hero-title {
+    color: var(--background-color);
+}
+
+
+/* Section */
+
+.section-1 {
+    background-color: var(--background-color);
+}
+
+.section-2 {
+    background-color: var(--fon-section-3-color);
+}
+
+.section-3 {
+    background-color: var(--fon-section-1-color);
+}
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+
+/* Features */
+
+.features .title {
+    color: var(--primary-text-color);
+}
+
+
+/* Work */
+
+.work-list .title {
+    color: var(--primary-text-color);
+}
+
+
+/* Button */
+
+.button {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+.maps a {
+    color: var(--background-color);
+}
+
+.maps a:hover,
+.maps a:focus {
+    color: var(--accent-color);
+}
+
+
+/*
+основной текст  #212121 +
+вторичный цвет текста #757575 +
+цвет лого #2196F3 #000000
+цвет фона заголовка и подвала #2F303A
+средний цвет фона #E5E5E5
+нижний цвет фона #F5F4FA
+цвет наведения #2196F3 +*/
